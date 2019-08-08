@@ -42,8 +42,4 @@ location ~ \.php$ {
 location ~ ^/assets/.*\.php$ {
         deny all;
     }
-location ~* \.(css|js|gif|jpe?g|png)$ {
-    expires 168h;
-    
-  }
 }
